@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff2e2e; /* красный */
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #ff2e2e;
+}
+
+.button:hover {
+    background: #cc0000;
+    box-shadow: 0 0 20px #ff2e2e;
+    transform: scale(1.05);
+}
